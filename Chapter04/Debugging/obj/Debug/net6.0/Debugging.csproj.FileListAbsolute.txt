@@ -1,0 +1,14 @@
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\Debugging\bin\Debug\net6.0\Debugging.exe
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\Debugging\bin\Debug\net6.0\Debugging.deps.json
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\Debugging\bin\Debug\net6.0\Debugging.runtimeconfig.json
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\Debugging\bin\Debug\net6.0\Debugging.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\Debugging\bin\Debug\net6.0\Debugging.pdb
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\Debugging\obj\Debug\net6.0\Debugging.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\Debugging\obj\Debug\net6.0\Debugging.AssemblyInfoInputs.cache
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\Debugging\obj\Debug\net6.0\Debugging.AssemblyInfo.cs
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\Debugging\obj\Debug\net6.0\Debugging.csproj.CoreCompileInputs.cache
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\Debugging\obj\Debug\net6.0\Debugging.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\Debugging\obj\Debug\net6.0\refint\Debugging.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\Debugging\obj\Debug\net6.0\Debugging.pdb
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\Debugging\obj\Debug\net6.0\Debugging.genruntimeconfig.cache
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\Debugging\obj\Debug\net6.0\ref\Debugging.dll

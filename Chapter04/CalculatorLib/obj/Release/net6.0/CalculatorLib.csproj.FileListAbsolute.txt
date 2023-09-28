@@ -1,0 +1,11 @@
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\CalculatorLib\bin\Release\net6.0\CalculatorLib.deps.json
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\CalculatorLib\bin\Release\net6.0\CalculatorLib.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\CalculatorLib\bin\Release\net6.0\CalculatorLib.pdb
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\CalculatorLib\obj\Release\net6.0\CalculatorLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\CalculatorLib\obj\Release\net6.0\CalculatorLib.AssemblyInfoInputs.cache
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\CalculatorLib\obj\Release\net6.0\CalculatorLib.AssemblyInfo.cs
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\CalculatorLib\obj\Release\net6.0\CalculatorLib.csproj.CoreCompileInputs.cache
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\CalculatorLib\obj\Release\net6.0\CalculatorLib.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\CalculatorLib\obj\Release\net6.0\refint\CalculatorLib.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\CalculatorLib\obj\Release\net6.0\CalculatorLib.pdb
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\CalculatorLib\obj\Release\net6.0\ref\CalculatorLib.dll

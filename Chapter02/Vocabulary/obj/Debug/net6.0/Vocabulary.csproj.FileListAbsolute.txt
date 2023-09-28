@@ -1,0 +1,14 @@
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter02\Vocabulary\obj\Debug\net6.0\Vocabulary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter02\Vocabulary\obj\Debug\net6.0\Vocabulary.AssemblyInfoInputs.cache
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter02\Vocabulary\obj\Debug\net6.0\Vocabulary.AssemblyInfo.cs
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter02\Vocabulary\obj\Debug\net6.0\Vocabulary.csproj.CoreCompileInputs.cache
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter02\Vocabulary\bin\Debug\net6.0\Vocabulary.exe
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter02\Vocabulary\bin\Debug\net6.0\Vocabulary.deps.json
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter02\Vocabulary\bin\Debug\net6.0\Vocabulary.runtimeconfig.json
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter02\Vocabulary\bin\Debug\net6.0\Vocabulary.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter02\Vocabulary\bin\Debug\net6.0\Vocabulary.pdb
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter02\Vocabulary\obj\Debug\net6.0\Vocabulary.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter02\Vocabulary\obj\Debug\net6.0\refint\Vocabulary.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter02\Vocabulary\obj\Debug\net6.0\Vocabulary.pdb
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter02\Vocabulary\obj\Debug\net6.0\Vocabulary.genruntimeconfig.cache
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter02\Vocabulary\obj\Debug\net6.0\ref\Vocabulary.dll

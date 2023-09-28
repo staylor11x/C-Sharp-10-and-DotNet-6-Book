@@ -1,0 +1,11 @@
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\CallStackExceptionHandlingLib\bin\Debug\net6.0\CallStackExceptionHandlingLib.deps.json
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\CallStackExceptionHandlingLib\bin\Debug\net6.0\CallStackExceptionHandlingLib.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\CallStackExceptionHandlingLib\bin\Debug\net6.0\CallStackExceptionHandlingLib.pdb
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\CallStackExceptionHandlingLib\obj\Debug\net6.0\CallStackExceptionHandlingLib.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\CallStackExceptionHandlingLib\obj\Debug\net6.0\CallStackExceptionHandlingLib.AssemblyInfoInputs.cache
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\CallStackExceptionHandlingLib\obj\Debug\net6.0\CallStackExceptionHandlingLib.AssemblyInfo.cs
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\CallStackExceptionHandlingLib\obj\Debug\net6.0\CallStackExceptionHandlingLib.csproj.CoreCompileInputs.cache
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\CallStackExceptionHandlingLib\obj\Debug\net6.0\CallStackExceptionHandlingLib.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\CallStackExceptionHandlingLib\obj\Debug\net6.0\refint\CallStackExceptionHandlingLib.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\CallStackExceptionHandlingLib\obj\Debug\net6.0\CallStackExceptionHandlingLib.pdb
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter04\CallStackExceptionHandlingLib\obj\Debug\net6.0\ref\CallStackExceptionHandlingLib.dll

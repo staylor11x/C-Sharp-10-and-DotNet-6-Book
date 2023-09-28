@@ -1,0 +1,14 @@
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\BooleanOperators\bin\Debug\net6.0\BooleanOperators.exe
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\BooleanOperators\bin\Debug\net6.0\BooleanOperators.deps.json
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\BooleanOperators\bin\Debug\net6.0\BooleanOperators.runtimeconfig.json
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\BooleanOperators\bin\Debug\net6.0\BooleanOperators.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\BooleanOperators\bin\Debug\net6.0\BooleanOperators.pdb
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\BooleanOperators\obj\Debug\net6.0\BooleanOperators.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\BooleanOperators\obj\Debug\net6.0\BooleanOperators.AssemblyInfoInputs.cache
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\BooleanOperators\obj\Debug\net6.0\BooleanOperators.AssemblyInfo.cs
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\BooleanOperators\obj\Debug\net6.0\BooleanOperators.csproj.CoreCompileInputs.cache
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\BooleanOperators\obj\Debug\net6.0\BooleanOperators.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\BooleanOperators\obj\Debug\net6.0\refint\BooleanOperators.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\BooleanOperators\obj\Debug\net6.0\BooleanOperators.pdb
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\BooleanOperators\obj\Debug\net6.0\BooleanOperators.genruntimeconfig.cache
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\BooleanOperators\obj\Debug\net6.0\ref\BooleanOperators.dll

@@ -1,0 +1,14 @@
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\HandlingExceptions\bin\Debug\net6.0\HandlingExceptions.exe
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\HandlingExceptions\bin\Debug\net6.0\HandlingExceptions.deps.json
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\HandlingExceptions\bin\Debug\net6.0\HandlingExceptions.runtimeconfig.json
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\HandlingExceptions\bin\Debug\net6.0\HandlingExceptions.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\HandlingExceptions\bin\Debug\net6.0\HandlingExceptions.pdb
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\HandlingExceptions\obj\Debug\net6.0\HandlingExceptions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\HandlingExceptions\obj\Debug\net6.0\HandlingExceptions.AssemblyInfoInputs.cache
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\HandlingExceptions\obj\Debug\net6.0\HandlingExceptions.AssemblyInfo.cs
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\HandlingExceptions\obj\Debug\net6.0\HandlingExceptions.csproj.CoreCompileInputs.cache
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\HandlingExceptions\obj\Debug\net6.0\HandlingExceptions.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\HandlingExceptions\obj\Debug\net6.0\refint\HandlingExceptions.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\HandlingExceptions\obj\Debug\net6.0\HandlingExceptions.pdb
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\HandlingExceptions\obj\Debug\net6.0\HandlingExceptions.genruntimeconfig.cache
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter03\HandlingExceptions\obj\Debug\net6.0\ref\HandlingExceptions.dll
