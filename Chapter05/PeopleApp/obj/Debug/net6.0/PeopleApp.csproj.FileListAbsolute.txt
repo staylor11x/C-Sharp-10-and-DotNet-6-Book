@@ -16,3 +16,5 @@ C:\Users\scott\OneDrive\Dev\C# Course\Chapter05\PeopleApp\obj\Debug\net6.0\Peopl
 C:\Users\scott\OneDrive\Dev\C# Course\Chapter05\PeopleApp\bin\Debug\net6.0\PacktLibrary.dll
 C:\Users\scott\OneDrive\Dev\C# Course\Chapter05\PeopleApp\bin\Debug\net6.0\PacktLibrary.pdb
 C:\Users\scott\OneDrive\Dev\C# Course\Chapter05\PeopleApp\obj\Debug\net6.0\PeopleApp.csproj.CopyComplete
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter05\PeopleApp\bin\Debug\net6.0\PacktLibraryModern.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter05\PeopleApp\bin\Debug\net6.0\PacktLibraryModern.pdb
