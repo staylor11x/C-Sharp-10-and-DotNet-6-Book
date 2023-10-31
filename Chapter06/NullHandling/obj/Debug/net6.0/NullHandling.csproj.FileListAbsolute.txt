@@ -1,0 +1,14 @@
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter06\NullHandling\bin\Debug\net6.0\NullHandling.exe
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter06\NullHandling\bin\Debug\net6.0\NullHandling.deps.json
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter06\NullHandling\bin\Debug\net6.0\NullHandling.runtimeconfig.json
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter06\NullHandling\bin\Debug\net6.0\NullHandling.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter06\NullHandling\bin\Debug\net6.0\NullHandling.pdb
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter06\NullHandling\obj\Debug\net6.0\NullHandling.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter06\NullHandling\obj\Debug\net6.0\NullHandling.AssemblyInfoInputs.cache
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter06\NullHandling\obj\Debug\net6.0\NullHandling.AssemblyInfo.cs
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter06\NullHandling\obj\Debug\net6.0\NullHandling.csproj.CoreCompileInputs.cache
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter06\NullHandling\obj\Debug\net6.0\NullHandling.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter06\NullHandling\obj\Debug\net6.0\refint\NullHandling.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter06\NullHandling\obj\Debug\net6.0\NullHandling.pdb
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter06\NullHandling\obj\Debug\net6.0\NullHandling.genruntimeconfig.cache
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter06\NullHandling\obj\Debug\net6.0\ref\NullHandling.dll
