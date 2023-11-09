@@ -1,0 +1,14 @@
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter07\UsingPreviewFeatures\obj\Debug\net6.0\UsingPreviewFeatures.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter07\UsingPreviewFeatures\obj\Debug\net6.0\UsingPreviewFeatures.AssemblyInfoInputs.cache
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter07\UsingPreviewFeatures\obj\Debug\net6.0\UsingPreviewFeatures.AssemblyInfo.cs
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter07\UsingPreviewFeatures\obj\Debug\net6.0\UsingPreviewFeatures.csproj.CoreCompileInputs.cache
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter07\UsingPreviewFeatures\bin\Debug\net6.0\UsingPreviewFeatures.exe
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter07\UsingPreviewFeatures\bin\Debug\net6.0\UsingPreviewFeatures.deps.json
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter07\UsingPreviewFeatures\bin\Debug\net6.0\UsingPreviewFeatures.runtimeconfig.json
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter07\UsingPreviewFeatures\bin\Debug\net6.0\UsingPreviewFeatures.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter07\UsingPreviewFeatures\bin\Debug\net6.0\UsingPreviewFeatures.pdb
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter07\UsingPreviewFeatures\obj\Debug\net6.0\UsingPreviewFeatures.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter07\UsingPreviewFeatures\obj\Debug\net6.0\refint\UsingPreviewFeatures.dll
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter07\UsingPreviewFeatures\obj\Debug\net6.0\UsingPreviewFeatures.pdb
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter07\UsingPreviewFeatures\obj\Debug\net6.0\UsingPreviewFeatures.genruntimeconfig.cache
+C:\Users\scott\OneDrive\Dev\C# Course\Chapter07\UsingPreviewFeatures\obj\Debug\net6.0\ref\UsingPreviewFeatures.dll
