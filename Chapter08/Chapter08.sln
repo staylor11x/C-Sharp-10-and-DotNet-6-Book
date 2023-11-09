@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.7.34031.279
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithNumbers", "WorkingWithNumbers\WorkingWithNumbers.csproj", "{ECD38C88-66E4-4E16-9555-9809C9FA193A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithNumbers", "WorkingWithNumbers\WorkingWithNumbers.csproj", "{ECD38C88-66E4-4E16-9555-9809C9FA193A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithText", "WorkingWithText\WorkingWithText.csproj", "{BF6FB720-8BD0-45B0-AFF3-D259281FB2AF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WorkingWithTime", "WorkingWithTime\WorkingWithTime.csproj", "{33205171-CA10-43BE-80DE-FE286E98C531}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{ECD38C88-66E4-4E16-9555-9809C9FA193A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECD38C88-66E4-4E16-9555-9809C9FA193A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECD38C88-66E4-4E16-9555-9809C9FA193A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BF6FB720-8BD0-45B0-AFF3-D259281FB2AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BF6FB720-8BD0-45B0-AFF3-D259281FB2AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BF6FB720-8BD0-45B0-AFF3-D259281FB2AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BF6FB720-8BD0-45B0-AFF3-D259281FB2AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33205171-CA10-43BE-80DE-FE286E98C531}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33205171-CA10-43BE-80DE-FE286E98C531}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33205171-CA10-43BE-80DE-FE286E98C531}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33205171-CA10-43BE-80DE-FE286E98C531}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
