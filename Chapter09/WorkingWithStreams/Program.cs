@@ -6,17 +6,19 @@ using System.Xml.Schema;
 using System.IO.Compression;
 
 string currentDirectory = Combine(GetFolderPath(SpecialFolder.UserProfile), "OneDrive", "Dev", "C# Course", "Chapter09","OutputFiles");
+string currentDirectoryLinux = Combine("dev","C-Sharp-10-and-DotNet-6-Book", "Chapter09","OutputFiles");
+WriteLine(currentDirectoryLinux);
 
-//WorkingWithText(currentDirectory);
-WorkingWithXML(currentDirectory);
-WorkingWithCompression(currentDirectory);
-WorkingWithCompression(currentDirectory, useBrotli: false);
+WorkingWithText(currentDirectoryLinux);
+//WorkingWithXML(currentDirectoryLinux);
+//WorkingWithCompression(currentDirectoryLinux);
+//WorkingWithCompression(currentDirectoryLinux, useBrotli: false);
 
 static void WorkingWithText(string currentDirectory)
 {
     //define a file to write to
-    string textFile = Combine(currentDirectory, "Streams.txt");
-
+    //string textFile = Combine(currentDirectory, "Streams.txt");
+    string textFile = "Streams.txt";
     // create a text file and return a helpful writer
     StreamWriter text = File.CreateText(textFile);
 
