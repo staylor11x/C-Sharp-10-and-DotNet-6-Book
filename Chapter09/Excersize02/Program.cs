@@ -4,12 +4,9 @@ deserialzes it back
 
 using static System.Console;
 using Packt.Shared;
-using System.ComponentModel;
 using static System.IO.Path;
-using System.Text.Json.Nodes;
 using Newtonsoft.Json;
-using NewJson = System.Text.Json;
-using Newtonsoft.Json.Linq;
+
 
 //create a list of shapes 
 List<Shape> listOfShapes = new()
@@ -30,14 +27,14 @@ foreach(Shape shape in listOfShapes)
 //create a file to write to 
 string jsonPath = Combine("shapes.json");
 
-using(StreamWriter jsonStream = File.CreateText(jsonPath))
+string jsonTypeNameAll = JsonConvert.SerializeObject(listOfShapes, Formatting.Indented, new JsonSerializerSettings
 {
-    //create an object that will format in json
-    Newtonsoft.Json.JsonSerializer serializer = new();
+    TypeNameHandling = TypeNameHandling.Auto
+});
 
-    //serialise the obejct into a string
-    serializer.Serialize(jsonStream,listOfShapes);
-}
+WriteLine(jsonTypeNameAll);
+
+File.WriteAllText(jsonPath, jsonTypeNameAll);
 
 WriteLine();
 WriteLine("Written {0:N0} bytes of JSON to: {1}", new FileInfo(jsonPath).Length, jsonPath);
@@ -49,18 +46,34 @@ WriteLine(File.ReadAllText(jsonPath));
 //Now to deserialise, this could be a little more complcated than first anticipated
 // Frst of all, how does it know what knd of object is is tryng to deserialise?
 
-using(FileStream jsonLoad = File.Open(jsonPath, FileMode.Open))
-using(StreamReader jsonReader = new StreamReader(jsonLoad))
-using(JsonReader reader = new JsonTextReader(jsonReader))
-{
-    JsonSerializer deserializer = new Newtonsoft.Json.JsonSerializer();
-    List<Shape>? loadedShapes = deserializer.Deserialize<List<Shape>>(reader);
+string loadedJson = File.ReadAllText(jsonPath);
 
-    if(loadedShapes is not null)
+List<Shape> loadedShapes = JsonConvert.DeserializeObject<List<Shape>>(loadedJson, new JsonSerializerSettings
+{
+    TypeNameHandling = TypeNameHandling.All
+});
+
+if (loadedShapes is not null)
+{
+    foreach (Shape shape in loadedShapes)
     {
-        foreach(Shape shape in loadedShapes)
-        {
-            WriteLine("{0} is {1} and has an area of {2:N2}", shape.GetType(), shape.Color, shape.Area);
-        }
+        WriteLine("{0} is {1} and has an area of {2:N2}", shape.GetType().Name, shape.Color, shape.Area);
     }
 }
+
+
+//using (FileStream jsonLoad = File.Open(jsonPath, FileMode.Open))
+//using(StreamReader jsonReader = new StreamReader(jsonLoad))
+//using(JsonReader reader = new JsonTextReader(jsonReader))
+//{
+//    JsonSerializer deserializer = new Newtonsoft.Json.JsonSerializer();
+//    List<Shape>? loadedShapes = deserializer.Deserialize<List<Shape>>(reader);
+//
+//    if(loadedShapes is not null)
+//    {
+//        foreach(Shape shape in loadedShapes)
+//        {
+//            WriteLine("{0} is {1} and has an area of {2:N2}", shape.GetType(), shape.Color, shape.Area);
+//        }
+//    }
+//}
