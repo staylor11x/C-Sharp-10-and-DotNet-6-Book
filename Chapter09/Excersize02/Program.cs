@@ -43,12 +43,9 @@ WriteLine(File.ReadAllText(jsonPath));
 
 //the information is now stored in the file!
 
-//Now to deserialise, this could be a little more complcated than first anticipated
-// Frst of all, how does it know what knd of object is is tryng to deserialise?
-
 string loadedJson = File.ReadAllText(jsonPath);
 
-List<Shape> loadedShapes = JsonConvert.DeserializeObject<List<Shape>>(loadedJson, new JsonSerializerSettings
+List<Shape>? loadedShapes = JsonConvert.DeserializeObject<List<Shape>>(loadedJson, new JsonSerializerSettings
 {
     TypeNameHandling = TypeNameHandling.All
 });
@@ -60,20 +57,3 @@ if (loadedShapes is not null)
         WriteLine("{0} is {1} and has an area of {2:N2}", shape.GetType().Name, shape.Color, shape.Area);
     }
 }
-
-
-//using (FileStream jsonLoad = File.Open(jsonPath, FileMode.Open))
-//using(StreamReader jsonReader = new StreamReader(jsonLoad))
-//using(JsonReader reader = new JsonTextReader(jsonReader))
-//{
-//    JsonSerializer deserializer = new Newtonsoft.Json.JsonSerializer();
-//    List<Shape>? loadedShapes = deserializer.Deserialize<List<Shape>>(reader);
-//
-//    if(loadedShapes is not null)
-//    {
-//        foreach(Shape shape in loadedShapes)
-//        {
-//            WriteLine("{0} is {1} and has an area of {2:N2}", shape.GetType(), shape.Color, shape.Area);
-//        }
-//    }
-//}
