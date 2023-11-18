@@ -8,5 +8,5 @@ namespace Packt.Shared;
 
 public class ProjectConstants
 {
-    public const string DatabaseProvider = "SQLite";    //or sql server
+    public const string DatabaseProvider = "SQLServer";    //or sql server
 }

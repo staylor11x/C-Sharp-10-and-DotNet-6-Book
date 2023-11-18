@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.EntityFrameworkCore.ChangeTracking;
 using System.Runtime.Intrinsics.Arm;
 using Castle.DynamicProxy;     //collectingEntry
+using Microsoft.EntityFrameworkCore.Storage;    //IDbContentTransaction
 
 
 /* Database changes are not being persisted through sessions as the connection string points to a db in the debug folder which is being overwritten each time we run the program:
@@ -36,7 +37,7 @@ if (IncreaseProductPrice(productNameStartsWith: "Bob", amount: 20M))
 
 ListProducts();
 
-int deleted = DeleteProducts(productNameStarsWith: "Bob");
+int deleted = DeleteProducts("Bob");
 WriteLine($"{deleted} product(s) were deleted.");
 ListProducts();
 
@@ -242,23 +243,29 @@ static bool IncreaseProductPrice(string productNameStartsWith, decimal amount)
     }
 }
 
-static int DeleteProducts(string productNameStarsWith)
+static int DeleteProducts(string name)
 {
-    using(NorthWind db = new())
-    {
-        IQueryable<Product>? products = db.Products?.Where(p => p.ProductName.StartsWith(productNameStarsWith));
-
-        if(products is null)
+    using(NorthWind db = new()){
+        
+        using(IDbContextTransaction t = db.Database.BeginTransaction())
         {
-            WriteLine("No products found to delete.");
-            return 0;
-        }
-        else
-        {
-            db.Products.RemoveRange(products);
-        }
+            WriteLine("Transaction isolation level {0}", t.GetDbTransaction().IsolationLevel);
 
-        int affected = db.SaveChanges();
-        return affected;
+            IQueryable<Product>? products = db.Products?.Where( p => p.ProductName.StartsWith(name));
+
+            if (products is null)
+            {
+                WriteLine("No products found to delete.");
+                return 0;
+            }
+            else
+            {
+                db.Products.RemoveRange(products);
+            }
+
+            int affected = db.SaveChanges();
+            t.Commit();
+            return affected;    
+        }
     }
 }
