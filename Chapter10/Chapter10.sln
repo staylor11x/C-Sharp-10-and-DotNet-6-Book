@@ -5,7 +5,9 @@ VisualStudioVersion = 17.8.34309.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WorkingWithEFCore", "WorkingWithEFCore\WorkingWithEFCore.csproj", "{F09683AE-4D1B-4B62-ACC8-6985EBFB68EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoursesAndStudents", "CoursesAndStudents\CoursesAndStudents.csproj", "{F8B3C0F9-830C-4AFB-9CAA-ED86A4199F78}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoursesAndStudents", "CoursesAndStudents\CoursesAndStudents.csproj", "{F8B3C0F9-830C-4AFB-9CAA-ED86A4199F78}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excersize02", "Excersize02\Excersize02.csproj", "{5BE03681-A2E0-4CF7-A922-7BC5F26281FD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{F8B3C0F9-830C-4AFB-9CAA-ED86A4199F78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F8B3C0F9-830C-4AFB-9CAA-ED86A4199F78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F8B3C0F9-830C-4AFB-9CAA-ED86A4199F78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BE03681-A2E0-4CF7-A922-7BC5F26281FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BE03681-A2E0-4CF7-A922-7BC5F26281FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BE03681-A2E0-4CF7-A922-7BC5F26281FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BE03681-A2E0-4CF7-A922-7BC5F26281FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
