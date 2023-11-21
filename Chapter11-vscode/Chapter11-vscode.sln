@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqWithSets", "LinqWithSet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqWithEFCore", "LinqWithEFCore\LinqWithEFCore.csproj", "{FD31A4FD-0E33-4D21-9AD4-5234970A4F7B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LinqInParallel", "LinqInParallel\LinqInParallel.csproj", "{77726E26-12B8-4F55-A80D-4B8E031E6CA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Excersize02", "Excersize02\Excersize02.csproj", "{99EAEAE1-E8EB-4B33-AA32-D982B4B3B359}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{FD31A4FD-0E33-4D21-9AD4-5234970A4F7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD31A4FD-0E33-4D21-9AD4-5234970A4F7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD31A4FD-0E33-4D21-9AD4-5234970A4F7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77726E26-12B8-4F55-A80D-4B8E031E6CA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77726E26-12B8-4F55-A80D-4B8E031E6CA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77726E26-12B8-4F55-A80D-4B8E031E6CA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77726E26-12B8-4F55-A80D-4B8E031E6CA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99EAEAE1-E8EB-4B33-AA32-D982B4B3B359}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99EAEAE1-E8EB-4B33-AA32-D982B4B3B359}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99EAEAE1-E8EB-4B33-AA32-D982B4B3B359}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99EAEAE1-E8EB-4B33-AA32-D982B4B3B359}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
