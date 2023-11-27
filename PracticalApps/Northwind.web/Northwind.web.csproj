@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk.Web">
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
 
   <PropertyGroup>
     <TargetFramework>net6.0</TargetFramework>
@@ -13,6 +13,7 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\..\..\..\Dev\C-Sharp-10-and-DotNet-6-Book\PracticalApps\Northwind.Common.DataContext.SqlServer\Northwind.Common.DataContext.SqlServer.csproj" />
     <ProjectReference Include="..\..\..\..\..\..\Dev\C-Sharp-10-and-DotNet-6-Book\PracticalApps\Northwind.Razor.Employees\Northwind.Razor.Employees.csproj" />
+    <ProjectReference Include="..\Customers\Northwind.Razor.Customers.csproj" />
   </ItemGroup>
 
 </Project>
