@@ -1,0 +1,28 @@
+﻿@page
+@using Packt.Shared;
+@using Northwind.web.Pages;
+@model CustomersModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+@{
+}
+
+<div class="row">
+    <h1 class="display-2">Customers</h1>
+    <table class="table">
+        <thead class="thead-inverse">
+            <tr><th>Customer Name</th></tr>
+        </thead>
+        <tbody>
+            @if(Model.Customers is not null)
+            {
+                @foreach(Customer c in Model.Customers)
+                {
+                    <tr class="clickable" onclick="location.href='packtfeatures/Customer?id=@c.CustomerId'">
+                        <td>@c.CompanyName</td>
+                        <td>@c.Country</td>
+                    </tr>
+                }
+            }
+        </tbody>
+    </table>
+</div>
