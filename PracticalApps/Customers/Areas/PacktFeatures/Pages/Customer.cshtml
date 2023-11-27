@@ -1,9 +1,81 @@
 ﻿@page
 @using Packt.Shared
+@using System.Globalization
 @model PacktFeatures.Pages.CustomerPageModel
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
 <div class="row">
-    <h1>Just Checking</h1>
     <h1 class="display-2">@Model.Customer.CompanyName</h1>
+    <div>
+        <h2>Customer Details</h2>
+        <table class="table">
+            <tbody>
+                <tr>
+                    <th scope="row">Customer ID</th>
+                    <td>@Model.Customer.CustomerId</td> 
+                </tr>
+                <tr>
+                    <th scope="row">Customer Contact Name</th>
+                    <td>@Model.Customer.ContactName - @Model.Customer.ContactTitle</td>
+                </tr>
+                <tr>
+                    <th scope="row">Customer Contact Name</th>
+                    <td>@Model.Customer.Country</td>
+                </tr>
+                <tr>
+                    <th scope="row">Region</th>
+                    <td>@Model.Customer.Region</td>
+                </tr>
+                <tr>
+                    <th scope="row">City</th>
+                    <td>@Model.Customer.City</td>
+                </tr>
+                <tr>
+                    <th scope="row">Address</th>
+                    <td>@Model.Customer.Address</td>
+                <tr>
+                    <th scope="row">Postal Code</th>
+                    <td>@Model.Customer.PostalCode</td>
+                <tr>
+                </tr>
+                <tr>
+                    <th scope="row">Phone Number</th>
+                    <td>@Model.Customer.Phone</td>
+                </tr>
+                <tr>
+                    <th scope="row">Fax</th>
+                    <td>@Model.Customer.Fax</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div>
+        <h2>Orders</h2>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th scope="col">id</th>
+                    <th scope="col">Order Date</th>
+                    <th scope="col">Shipped Date</th>
+                    <th scope="col">Required Date</th>
+                    <th scope="col">Shipped To</th>
+                </tr>
+            </thead>
+            <tbody>
+                @if(Model.Orders is not null)
+                {
+                    @foreach(Order order in Model.Orders)
+                    {
+                        <tr>
+                            <td>@order.OrderId</td>
+                            <td>@order.OrderDate</td>
+                            <td>@order.ShippedDate</td>
+                            <td>@order.RequiredDate</td>
+                            <td>@order.ShipCountry</td>
+                        </tr>
+                    }
+                }
+            </tbody>
+        </table>
+    </div>
 </div>
