@@ -3,6 +3,7 @@ using Northwind.Mvc.Models;
 using System.Diagnostics;
 using Microsoft.AspNetCore.Authorization;
 using Packt.Shared; //Northwind context
+using Microsoft.EntityFrameworkCore;
 
 namespace Northwind.Mvc.Controllers
 {
@@ -18,7 +19,7 @@ namespace Northwind.Mvc.Controllers
         }
 
         [ResponseCache(Duration = 10, Location = ResponseCacheLocation.Any)]
-        public IActionResult Index()
+        public async Task<IActionResult> Index()
         {
             _logger.LogError("This is a serious error (not really)!");
             _logger.LogWarning("This is a warning!");
@@ -28,22 +29,22 @@ namespace Northwind.Mvc.Controllers
             HomeIndexViewModel model = new
             (
                 VisitorCount: (new Random()).Next(1, 1001),
-                Categories: db.Categories.ToList(),
-                Products: db.Products.ToList()
+                Categories: await db.Categories.ToListAsync(),
+                Products: await db.Products.ToListAsync()
             );
 
             return View(model);     //pas the model to the view
         }
 
-        public IActionResult ProductDetail(int? id)
+        public async Task<IActionResult> ProductDetail(int? id)
         {
             if(!id.HasValue)
             {
                 return BadRequest("You must pass a product ID in the route, for example /Home/ProductDetail21");
             }
 
-            Product? model = db.Products
-                .SingleOrDefault(p => p.ProductId == id);
+            Product? model = await db.Products
+                .SingleOrDefaultAsync(p => p.ProductId == id);
 
             if(model == null)
             {
@@ -77,6 +78,27 @@ namespace Northwind.Mvc.Controllers
         public IActionResult Privacy()
         {
             return View();
+        }
+
+        public IActionResult ProductsThatCostMoreThan(decimal? price)
+        {
+            if(!price.HasValue)
+            {
+                return BadRequest("You must pass a product in the query string, for example, /Home/Products/ProductsThatCostMoreThan?price=50");
+            }
+            
+            IEnumerable<Product> model = db.Products
+                .Include(p => p.Category)
+                .Include(p => p.Supplier)
+                .Where(p => p.UnitPrice > price);
+
+            if (!model.Any())
+            {
+                return NotFound($"No products cost more than {price:C}.");
+            }
+
+            ViewData["Max Price"] = price.Value.ToString("C");
+            return View(model); //pass the model to the view
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

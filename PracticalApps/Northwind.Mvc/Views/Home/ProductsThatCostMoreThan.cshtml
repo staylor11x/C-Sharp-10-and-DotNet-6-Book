@@ -1,0 +1,41 @@
+﻿@using Packt.Shared
+@model IEnumerable<Product>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    string title = "Products That Cost More Than " + ViewData["Max Price"];
+    ViewData["Title"] = title;
+}
+
+<h2>@title</h2>
+@if(Model is null)
+{
+    <div>No products found</div>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Category Name</th>
+                <th>Supplier's Company name</th>
+                <th>Product Name</th>
+                <th>Unit Price</th>
+                <th>Units in Stock</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach(Product p in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => p.Category.CategoryName)</td>
+                    <td>@Html.DisplayFor(modelItem => p.Supplier.CompanyName)</td>
+                    <td>@Html.DisplayFor(modelItem => p.ProductName)</td>
+                    <td>@Html.DisplayFor(modelItem => p.UnitPrice)</td>
+                    <td>@Html.DisplayFor(modelItem => p.UnitsInStock)</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
