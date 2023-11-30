@@ -1,4 +1,5 @@
 ﻿@model Packt.Shared.Category
+@using Packt.Shared
 @{
     ViewData["Title"] = "Category Detail - " + Model.CategoryName;
 }
@@ -11,5 +12,24 @@
         <dd>@Model.CategoryId</dd>
         <dt>Product Name</dt>
         <dd>@Model.CategoryName</dd>
+        <dt>Description</dt>
+        <dd>@Model.Description</dd>
+        <dt>Products</dt>
+        <dd>@Model.Products</dd>
     </dl>
+    <h2>Products</h2>
+    <div id="product-columns">
+        <ul>
+            @foreach (Product p in Model.Products)
+            {
+                <li>
+                    <a asp-controller="Home"
+                       asp-action="ProductDetail"
+                       asp-route-id="@p.ProductId">
+                        @p.ProductName costs @(p.UnitPrice is null ? "zero" : p.UnitPrice.Value.ToString("c"))
+                    </a>
+                </li>
+            }
+        </ul>
+    </div>
 </div>

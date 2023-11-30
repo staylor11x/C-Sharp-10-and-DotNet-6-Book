@@ -62,6 +62,7 @@ namespace Northwind.Mvc.Controllers
             }
 
             Category? model = await db.Categories
+                .Include(c => c.Products)       //include the products so we can show these
                 .SingleOrDefaultAsync(c => c.CategoryId == id);
 
             if(model == null)
