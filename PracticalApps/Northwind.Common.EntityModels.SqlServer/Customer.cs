@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
+using System.Xml.Serialization;
 using Microsoft.EntityFrameworkCore;
 
 namespace Packt.Shared
@@ -46,10 +47,12 @@ namespace Packt.Shared
         public string? Fax { get; set; }
 
         [InverseProperty(nameof(Order.Customer))]
+        [XmlIgnore]     //ignore property so no error when using xml serialisation (pg688)
         public virtual ICollection<Order> Orders { get; set; }
 
         [ForeignKey("CustomerId")]
         [InverseProperty(nameof(CustomerDemographic.Customers))]
+        [XmlIgnore]
         public virtual ICollection<CustomerDemographic> CustomerTypes { get; set; }
     }
 }
