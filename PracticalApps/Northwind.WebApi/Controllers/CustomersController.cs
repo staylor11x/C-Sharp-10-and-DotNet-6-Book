@@ -106,7 +106,7 @@ public class CustomersController : ControllerBase
     }
 
     // DELETE: api/customers/[id]
-    [HttpGet("{id}")]
+    [HttpDelete("{id}")]
     [ProducesResponseType(204)]
     [ProducesResponseType(400)]
     [ProducesResponseType(404)]

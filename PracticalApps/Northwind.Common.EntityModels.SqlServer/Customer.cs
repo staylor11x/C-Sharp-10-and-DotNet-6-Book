@@ -48,7 +48,7 @@ namespace Packt.Shared
 
         [InverseProperty(nameof(Order.Customer))]
         [XmlIgnore]     //ignore property so no error when using xml serialisation (pg688)
-        public virtual ICollection<Order> Orders { get; set; }
+        public virtual ICollection<Order>? Orders { get; set; }
 
         [ForeignKey("CustomerId")]
         [InverseProperty(nameof(CustomerDemographic.Customers))]

@@ -88,7 +88,7 @@ namespace Northwind.WebApi.Repositories
 
             //update the database
             db.Customers.Update(c);
-            int affected = await db.SaveChangesAsync(c);
+            int affected = await db.SaveChangesAsync();
             if (affected == 1)
             {
                 //update in cache
